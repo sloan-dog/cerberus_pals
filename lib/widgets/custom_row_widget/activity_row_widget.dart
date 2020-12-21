@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 class ActivityRowWidget extends StatelessWidget {
@@ -20,21 +18,19 @@ class ActivityRowWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Flex(direction: Axis.vertical, children: [
       Flex(direction: Axis.horizontal, children: [
-        Expanded(child: Flexible(child: Text(this.name))),
+        Flexible(child: Text(this.name)),
         Container(width: this.spaceBetween),
-        Expanded(
-            child: Flexible(
-                child: Text(
+        Flexible(
+            child: Text(
           this.date.toIso8601String(),
-        ))),
+        )),
         Container(width: this.spaceBetween),
-        Expanded(
-            child: Flexible(
+        Flexible(
           child: Text(
             this.text,
             maxLines: 10,
           ),
-        )),
+        ),
       ]),
       Container(height: this.spaceAfter),
     ]);
