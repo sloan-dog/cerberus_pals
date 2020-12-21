@@ -24,7 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   redux: ^4.0.0+3
-
+  flutter_redux: 0.7.0
 
 
 

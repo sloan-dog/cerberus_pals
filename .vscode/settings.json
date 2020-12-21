@@ -1,0 +1,92 @@
+{
+  "[dart]": {
+
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.suggest.insertMode": "replace"
+  },
+  "gitlens.codeLens.scopesByLanguage": [
+  "[dart]": {
+    
+  }
+    {
+      "language": "azure-pipelines",
+      "scopes": [
+        "document"
+      ]
+    },
+    {
+      "language": "ansible",
+      "scopes": [
+        "document"
+      ]
+    },
+    {
+      "language": "css",
+      "scopes": [
+        "document"
+      ]
+    },
+    {
+      "language": "html",
+      "scopes": [
+        "document"
+      ]
+    },
+    {
+      "language": "json",
+      "scopes": [
+        "document"
+      ]
+    },
+    {
+      "language": "jsonc",
+      "scopes": [
+        "document"
+      ]
+    },
+    {
+      "language": "less",
+      "scopes": [
+        "document"
+      ]
+    },
+    {
+      "language": "postcss",
+      "scopes": [
+        "document"
+      ]
+    },
+    {
+      "language": "python",
+      "symbolScopes": [
+        "!Module"
+      ]
+    },
+    {
+      "language": "scss",
+      "scopes": [
+        "document"
+      ]
+    },
+    {
+      "language": "stylus",
+      "scopes": [
+        "document"
+      ]
+    },
+    {
+      "language": "vue",
+      "scopes": [
+        "document"
+      ]
+    },
+    {
+      "language": "yaml",
+      "scopes": [
+        "document"
+      ]
+    }
+  ]
+}
